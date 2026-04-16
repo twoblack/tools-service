@@ -1,0 +1,1 @@
+docker run -d --name render-service -p 3000:3000 -v .:/app/ -v /app/node_modules render-service:latest
